@@ -245,6 +245,8 @@
             <div class="nav-brand">Products Marketplace</div>
             <div class="nav-links">
                 <span id="userGreeting" style="color: white;"></span>
+                 <a href="dashboard.html"><button class="logout-btn" onclick=dashboard()">Dashboard</button>
+                </a>
                 <button class="logout-btn" onclick="logout()">Logout</button>
             </div>
         </div>
@@ -365,7 +367,7 @@
                          alt="${product.name}" class="product-image">
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
-                        <div class="product-price">$${product.price.toFixed(2)}</div>
+                        <div class="product-price">D${product.price.toFixed(2)}</div>
                         <span class="product-category">${product.category}</span>
                         <p class="product-description">${product.description}</p>
                         <div class="seller-info">
