@@ -37,6 +37,7 @@ INSTALLED_APPS = [
 
     'phone_field',
     'address',
+    
 
 
     'django.contrib.admin',
