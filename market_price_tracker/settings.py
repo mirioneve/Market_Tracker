@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'registrations',
 
     'phone_field',
-    'address',
+    
     
 
 
