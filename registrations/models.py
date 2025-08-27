@@ -13,4 +13,7 @@ class Registration(models.Model):
     email = models.EmailField(max_length=200)
     password = models.CharField(max_length=200)
     location = models.CharField(max_length=200)
-    acount_type = models.CharField(max_length=80, choices=user_choices)
+    acount_type = models.CharField(max_length=80, default="user")
+
+    def __str__(self) -> str:
+        return self.first_name

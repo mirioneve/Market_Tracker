@@ -35,6 +35,10 @@ INSTALLED_APPS = [
     'marketapp',
     'registrations',
 
+    'phone_field',
+    
+    
+
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -73,6 +77,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'market_price_tracker.wsgi.application'
 
+
+GOOGLE_API_KEY = 'AIzaSyBmblmgAdlIsXP0iVxCp_LgEMF9lGcR3m4'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
