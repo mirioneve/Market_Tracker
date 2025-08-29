@@ -16,7 +16,6 @@ A **real-time market price tracker** that collects and shares verified prices, h
 ## ✨ Key Features  
 - 📌 Real-time price updates for key goods  
 - 📊 Price history & trends  
-- 📍 Location-based pricing (Serekunda, Brikama, etc.)  
 - 👥 Multi-role access: traders, admins, public  
 - 📱 Mobile-friendly UI  
 
@@ -30,6 +29,7 @@ A **real-time market price tracker** that collects and shares verified prices, h
 
 --- 
 # Demo pages
+![Market Price Tracker](https://market-tracker-onzf.onrender.com/)
 
 ## Register Page 
 ![Register Page](photos/1img.png)
