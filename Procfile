@@ -1,0 +1,1 @@
+web: gunicorn market_price_tracker.wsgi:application

@@ -1,4 +1,9 @@
 asgiref==3.9.1
 Django==5.2.5
+django-address==0.2.8
+django-address-model==1.0.4
+django-location-field==2.7.3
+django-phone-field==1.8.1
+pillow==11.3.0
 sqlparse==0.5.3
 tzdata==2025.2
