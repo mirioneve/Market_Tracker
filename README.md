@@ -1,4 +1,4 @@
-# 📊 MyFarm Market Price Tracker  
+# 📊 Market Price Tracker  
 
 **Hackathon Project — MyFarm Dev**  
 
