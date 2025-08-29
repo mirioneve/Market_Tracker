@@ -1,4 +1,4 @@
-# 1. basic of coditionals
+# 1. basic of conditionals
 num = int(input("Enter Your Number:"))
 
 if num % 2 == 0:
@@ -25,3 +25,4 @@ elif operator == "/":
         print(num1/num2)
 else:
     print("choose Your Numbers and an operator ")
+
