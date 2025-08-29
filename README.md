@@ -29,7 +29,7 @@ A **real-time market price tracker** that collects and shares verified prices, h
 
 --- 
 # Demo pages
-![Market Price Tracker](https://market-tracker-onzf.onrender.com/)
+[Market Price Tracker](https://market-tracker-onzf.onrender.com/)
 
 ## Register Page 
 ![Register Page](photos/1img.png)
