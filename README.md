@@ -28,6 +28,17 @@ A **real-time market price tracker** that collects and shares verified prices, h
 - **Database:**  SQLite  
 - **Hosting:** Render  
 
+--- 
+# Demo pages
+
+## Register Page 
+![Register Page](photos/1img.png)
+
+## Log In Page
+![Log In Page](photos/4img.png)
+
+## Products Pages
+![Products Page](photos/2img.png)
 ---
 
 ## ⚡ Quick Start  
@@ -38,11 +49,3 @@ A **real-time market price tracker** that collects and shares verified prices, h
       python manage.py migrate
       python manage.py runserver
 
-## Register Page 
-![Register Page](photos/1img.png)
-
-## Log In Page
-![Log In Page](photos/4img.png)
-
-## Products Pages
-![Products Page](photos/2img.png)
