@@ -6,6 +6,8 @@
 Traders in The Gambia—especially in markets like **Serekunda**—face unstable prices for goods like fish, vegetables, and imports.  
 Without real-time data, prices are inconsistent, causing **reduced profits** for sellers and **higher costs** for buyers.  
 
+
+
 ## 💡 Solution  
 A **real-time market price tracker** that collects and shares verified prices, helping traders and buyers make informed decisions.  
 
@@ -23,7 +25,7 @@ A **real-time market price tracker** that collects and shares verified prices, h
 ## 🛠️ Tech Stack  
 - **Backend:** Django  
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap  
-- **Database:** PostgreSQL / SQLite  
+- **Database:**  SQLite  
 - **Hosting:** Render  
 
 ---
@@ -36,3 +38,11 @@ A **real-time market price tracker** that collects and shares verified prices, h
       python manage.py migrate
       python manage.py runserver
 
+## Register Page 
+![Register Page](photos/1img.png)
+
+## Log In Page
+![Log In Page](photos/4img.png)
+
+## Products Pages
+![Products Page](photos/2img.png)

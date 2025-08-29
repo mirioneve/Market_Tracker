@@ -9,3 +9,4 @@ def dashboard(request):
 
 def products(request):
     return render(request, "marketapp/products.html")
+
