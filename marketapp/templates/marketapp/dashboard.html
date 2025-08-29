@@ -293,7 +293,7 @@
       <div class="nav-content">
         <div class="nav-brand">Seller Dashboard</div>
         <div class="nav-links">
-          <a href="products.html">View All Products</a>
+          <a  href="{% url 'marketapp:products' %}">View All Products</a>
           <button class="logout-btn" onclick="logout()">Logout</button>
         </div>
       </div>
@@ -404,10 +404,14 @@
     </div>
 
     <script>
+      const urls = {
+        home: "{% url 'marketapp:index' %}",
+      };
+
       // Check if user is logged in and is a seller
       const currentUser = JSON.parse(localStorage.getItem("currentUser"));
       if (!currentUser || currentUser.userType !== "seller") {
-        window.location.href = "index.html";
+        window.location.href = urls.home;
       }
 
       // Display seller name
@@ -542,7 +546,7 @@
 
       function logout() {
         localStorage.removeItem("currentUser");
-        window.location.href = "index.html";
+        window.location.href = urls.home;
       }
 
       // Initialize page

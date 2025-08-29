@@ -245,7 +245,7 @@
             <div class="nav-brand">Products Marketplace</div>
             <div class="nav-links">
                 <span id="userGreeting" style="color: white;"></span>
-                 <a href="dashboard.html"><button class="logout-btn" onclick=dashboard()">Dashboard</button>
+                 <a href="{% url 'marketapp:dashboard' %}"><button class="logout-btn" onclick=dashboard()">Dashboard</button>
                 </a>
                 <button class="logout-btn" onclick="logout()">Logout</button>
             </div>
@@ -295,10 +295,14 @@
     </div>
 
     <script>
+        const urls = {
+        home: "{% url 'marketapp:index' %}",
+        };
+
         // Check if user is logged in
         const currentUser = JSON.parse(localStorage.getItem('currentUser'));
         if (!currentUser) {
-            window.location.href = 'index.html';
+            window.location.href = urls.home ;
         }
 
         // Display user greeting
@@ -364,7 +368,7 @@
             container.innerHTML = products.map(product => `
                 <div class="product-card">
                     <img src="${product.image || '/placeholder.svg?height=200&width=300&query=' + encodeURIComponent(product.name)}" 
-                         alt="${product.name}" class="product-image">
+                        alt="${product.name}" class="product-image">
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
                         <div class="product-price">D${product.price.toFixed(2)}</div>
@@ -386,7 +390,7 @@
 
         function logout() {
             localStorage.removeItem('currentUser');
-            window.location.href = 'index.html';
+            window.location.href = urls.home;
         }
 
         // Initialize page
