@@ -1,4 +1,4 @@
-# 📊 Market Price Tracker  
+# 📊 Market Place  
 
 **Hackathon Project — MyFarm Dev**  
 
@@ -29,10 +29,12 @@ A **real-time market price tracker** that collects and shares verified prices, h
 
 --- 
 # Demo pages
-Visit the site: [Market Price Tracker](https://market-tracker-onzf.onrender.com/)
+Visit the site: [Market Place](https://market-tracker-onzf.onrender.com/)
 
 ## Register Page 
 ![Register Page](photos/1img.png)
+If you register as a client you can only view products.
+But if you register as a seller you can post products and view them
 
 ## Log In Page
 ![Log In Page](photos/4img.png)
