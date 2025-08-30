@@ -2,22 +2,18 @@
 
 **Hackathon Project — MyFarm Dev**  
 
-## 🚀 Problem  
-Traders in The Gambia—especially in markets like **Serekunda**—face unstable prices for goods like fish, vegetables, and imports.  
-Without real-time data, prices are inconsistent, causing **reduced profits** for sellers and **higher costs** for buyers.  
+## 🚀 Problem & 💡 Solution  
+In many local markets, it’s hard to compare prices or even find who is selling goods. Our project solves this by putting products and seller information in one place, so buyers can easily find what they need and contact the seller.
 
-
-
-## 💡 Solution  
-A **real-time market price tracker** that collects and shares verified prices, helping traders and buyers make informed decisions.  
 
 ---
 
 ## ✨ Key Features  
-- 📌 Real-time price updates for key goods  
+- 📌 Online Market Where buyers can views the products 
 - 📊 Price history & trends  
 - 👥 Multi-role access: traders, admins, public  
-- 📱 Mobile-friendly UI  
+- 📱 Mobile-friendly UI
+- NOTE THEY CAN'T DO ONLINE PAYMENT
 
 ---
 
