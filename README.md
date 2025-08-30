@@ -10,7 +10,6 @@ In many local markets, it’s hard to compare prices or even find who is selling
 
 ## ✨ Key Features  
 - 📌 Online Market Where buyers can views the products 
-- 📊 Price history & trends  
 - 👥 Multi-role access: traders, admins, public  
 - 📱 Mobile-friendly UI
 - NOTE THEY CAN'T DO ONLINE PAYMENT
